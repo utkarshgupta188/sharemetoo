@@ -31,21 +31,14 @@ export const Header: React.FC = observer(() => {
             <IoInformationCircle />
           </Link>
           <a
-            href="https://github.com/mat-sz/filedrop"
+            href="https://github.com/utkarshgupta188/sharemetoo"
             target="_blank"
             rel="noopener noreferrer"
             title={t('sections.github')}
           >
             <IoLogoGithub />
           </a>
-          <a
-            href="https://twitter.com/matsz_dev"
-            target="_blank"
-            rel="noopener noreferrer"
-            title={t('sections.twitter')}
-          >
-            <IoLogoTwitter />
-          </a>
+   
         </div>
       </nav>
     </header>
